@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>belajar-scss</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./scss/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-kategori">
+        <img src="./assets/img/logo.svg" alt="logo" srcset="" />
+        <div class="desktop">
+          <i class="fas fa-th"></i>
+          <p>Kategori</p>
+        </div>
+      </div>
+      <div class="login-button desktop">
+        <button class="btn-masuk">Masuk</button>
+        <button class="btn-daftar">Daftar</button>
+      </div>
+
+      <div class="mobile">
+        <i
+          class="fas fa-bars"
+          style="font-size: 20px"
+          onclick="openSidemenu()"
+        ></i>
+      </div>
+      <div id="menuside-nonlogin">
+        <i
+          class="fas fa-times"
+          onclick="closeSidemenu()"
+          style="
+            position: absolute;
+            right: 5%;
+            top: 10%;
+            font-size: 20px;
+            cursor: pointer;
+          "
+        ></i>
+      </div>
+    </header>
+
+    <nav class="desktop">
+      <a class="text-grey" href="#">Vendor disekitarmu</a>
+      <a class="text-grey" href="#">Jasa disekitarmu</a>
+      <a class="text-grey" href="#">Jasa yang paling dicari</a>
+      <a class="text-grey" href="#">Jasa terbaik</a>
+      <a class="text-grey" href="#">Jasa top bulan ini</a>
+    </nav>
+
+    <main>
+      <div class="content">
+        <h1 class="text-orange">Gunakan jasa kami sekarang</h1>
+        <h4 class="text-grey">
+          Rencanakan hari pernikahanmu dengan matang, serta gunakan jasa <br />
+          kami untuk membuat hari penting mu menjadi sangat spesial
+        </h4>
+      </div>
+
+      <form class="form-search" action="/action_page.php">
+        <input
+          type="text"
+          class="search"
+          placeholder="Search.."
+          name="search"
+        />
+        <button type="submit" class="btn-search">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+    </main>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

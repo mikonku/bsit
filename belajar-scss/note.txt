@@ -1,0 +1,11 @@
+CSS:
+-Media Queries
+-Flexbox
+-Flex Wrap
+
+
+
+Note:
+display: flex;
+align-items: (sesuaikan);
+justify-content-beetwen: (sesuaikan);
