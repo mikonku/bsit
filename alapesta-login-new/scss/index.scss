@@ -1,0 +1,158 @@
+$fontsize: 14px;
+$fontsizeHeading1: 3.4em;
+$fontsizeHeading2: 1.8em;
+$fontsizeHeading3: 1.5em;
+$fontsizeHeading4: 1.3em;
+$fontsizeHeading5: 1.1em;
+$fontsizeHeading6: 1em;
+$fontsizeParagraph: 1em;
+$fontsizeParagraphsmall: 0.9em;
+$fontsizeParagraphxsmall: 0.8em;
+$fontsizeParagraphxxsmall: 0.7em;
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto-Light.ttf") format("truetype"),
+    url("../assets/fonts/Roboto-Light.svg#Roboto-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto-Regular.ttf") format("truetype"),
+    url("/assets/fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto-Medium.ttf") format("truetype"),
+    url("/assets/fonts/Roboto-Medium.svg#Roboto-Medium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto-Bold.ttf") format("truetype"),
+    url("/assets/fonts/Roboto-Bold.svg#Roboto-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SourceSans";
+  src: url("/assets/fonts/SourceSans3-Regular.ttf") format("truetype"),
+    url("/assets/fonts/SourceSans3-Regular.svg#SourceSans3-Regular")
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SourceSans";
+  src: url("/assets/fonts/SourceSans3-Bold.ttf") format("truetype"),
+    url("/assets/fonts/SourceSans3-Bold.svg#SourceSans3-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Focus
+*:focus {
+  outline: none;
+}
+
+body {
+  font-size: $fontsize !important;
+  line-height: 1.5;
+  color: #888888;
+  background: #e5e5e5;
+  font-weight: normal;
+  font-family: "Roboto" !important;
+  min-width: 100% !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Roboto";
+  font-weight: bold;
+  margin: unset;
+  line-height: 2.4em;
+}
+
+h1,
+.h1 {
+  font-size: $fontsizeHeading1;
+}
+
+h2,
+.h2 {
+  font-size: $fontsizeHeading2;
+}
+
+h3,
+.h3 {
+  font-size: $fontsizeHeading3;
+}
+
+h4,
+.h4 {
+  font-size: $fontsizeHeading4;
+}
+
+h5,
+.h5 {
+  font-size: $fontsizeHeading5;
+}
+
+h6,
+.h6 {
+  font-size: $fontsizeHeading6;
+}
+
+p,
+.p,
+.psmall,
+.pxsmall,
+.pxxsmall {
+  margin: 0;
+}
+
+p,
+.p {
+  font-size: $fontsizeParagraph;
+}
+
+.psmall {
+  font-size: $fontsizeParagraphsmall;
+}
+
+.pxsmall {
+  font-size: $fontsizeParagraphxsmall;
+}
+
+.pxxsmall {
+  font-size: $fontsizeParagraphxxsmall;
+}
+
+.text-SourceSans {
+  font-family: "SourceSans";
+}

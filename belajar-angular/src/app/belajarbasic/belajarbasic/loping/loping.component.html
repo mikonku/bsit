@@ -1,0 +1,16 @@
+<p class="text-center">loping works!</p>
+
+<table class="table text-center">
+    <tr>
+        <th>Nama</th>
+        <th>Umur</th>
+        <th>Index</th>
+    </tr>
+
+    <tr *ngFor="let user of users; index as i">
+        <td>{{user.nama}}</td>
+        <td>{{user.umur}}</td>
+        <td>{{i}}</td>
+    </tr>
+
+</table>

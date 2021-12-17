@@ -1,0 +1,7 @@
+key:
+
+transfonter
+
+fontsize:
+desktop= 14px
+mobile= 12px
